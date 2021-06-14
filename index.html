@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML勉強サイト">
+  <title>ドットインストールでHTML勉強中</title>
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <header>
+    <img src="img/logo.png" width="300px" height="50px" alt="ドットインストールのロゴです">
+  </header>
+  
+  <main>
+    <h1>基礎文法編に突入</h1>
+    <p>動画を見ながら進めるので中々頭に入ってこないです・・・「<a href="members.html">メンバー紹介</a>」と「<a href="lessons/index.html">レッスン一覧</a>」もご覧ください。</p>
+    
+  <nav>
+    <ul>
+      <li><a href="#about">このサービスについて</a></li>
+      <li><a href="#history">沿革</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1 id="about">sectionには見出しが必要</h1>
+    <p>h1やh2などの見出しが必要です</p>
+  </section>
+  
+  <section>
+    <h1 id="history">沿革</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>年月日</th>
+          <th>出来事</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2021.6.5</td>
+          <td>メンタリング開始</td>
+        </tr>
+        <tr>
+          <td>2021.6.12</td>
+          <td>詳解HTML突入</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  </main>
+  
+  <section>
+    <h1>記事一覧</h1>
+
+    <article>
+      <h2><span style="color: red;">spanとdiv</span></h2>
+      <div style="background: rgb(238, 234, 234);">
+        <p>spanはインライン要素で改行されない</p>
+        <p>divはブロック要素で改行される</p>
+        <footer>投稿日：<time>2021-06-12</time>by @miyoshi</footer>
+      </div>
+      </article>
+    
+    <article>
+      <h2><span style="color: blue;">idとclass</span></h2>
+      <div style="background-color: rgb(238, 234, 234);">
+        <p>idは同じページ内で重複できない！！</p>
+        <p>idの使い道が難しい</p>
+        <footer>投稿日：<time>2021-06-12</time>by @miyoshi</footer>
+      </div>
+    </article>
+  </section>
+
+  <aside>
+    <h1>広告</h1>
+    <p>今週購入したMacbook airが到着予定。環境再構築とMacに慣れるのに多分時間を要す</p>
+  </aside>
+
+  <label for="example">アドバイス求む</label>
+  <textarea id="example" rows="4" cols="40"></textarea>
+
+  <p>理解度<br>
+    <input type="checkbox" name="q" value="良い">良い
+    <input type="checkbox" name="q" value="まぁまぁ" checked>まぁまぁ
+    <input type="checkbox" name="q" value="ダメ">ダメ
+  </p>
+
+
+  <footer>
+    <p><a href="#top">先頭へ戻る</a></p>
+  </footer>
+</body>
+</html>
